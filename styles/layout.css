@@ -57,6 +57,7 @@ aside{
         
 
         & aside{
+            
             display: grid;
             background-position: center center;
            
@@ -66,9 +67,13 @@ aside{
         }
         
         & main{
+            overflow: unset;
             display: grid;
             padding: 1.5rem;
             
+            & .main-container{
+                margin-inline: auto;
+            }
             
         }
     }
