@@ -58,6 +58,7 @@ aside{
 
         & aside{
             display: grid;
+            background-position: center center;
            
             & header > p, & header > h2{
                 display: none;

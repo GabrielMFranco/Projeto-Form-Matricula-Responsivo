@@ -54,3 +54,10 @@ label + .radio-wrapper{
         }
     }
 }
+
+@media (width <= 750px){
+    .radio-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
